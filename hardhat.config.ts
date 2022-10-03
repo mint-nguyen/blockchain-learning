@@ -5,8 +5,8 @@ module.exports = {
   solidity: "0.8.0",
   networks: {
     rinkeby: {
-      url: `${process.env.POKT_RINKEBY_URL}`,
-      accounts: [`${process.env.RINKEBY_PRIVATE_KEY}`],
+      url: `${process.env.POKT_URL}`,
+      accounts: [`${process.env.PRIVATE_KEY}`],
     } 
   }
 };
